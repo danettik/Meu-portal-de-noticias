@@ -43,6 +43,9 @@ header li a {
     justify-content: space-between;
     padding: 16px 16px;
     gap: 32px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 48.25%);
 }
 
 section {
